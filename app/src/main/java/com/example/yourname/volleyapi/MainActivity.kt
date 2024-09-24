@@ -62,8 +62,8 @@ class MainActivity : AppCompatActivity() {
          val stringRequest = StringRequest(
              Request.Method.GET, url,
              { response ->
-                 Log.e("Response", "getMemeData: "+response, )
 
+                 Log.e("Response", "getMemeData: " + response.toString() )
 
                  var responseObjects = JSONObject(response)
 
