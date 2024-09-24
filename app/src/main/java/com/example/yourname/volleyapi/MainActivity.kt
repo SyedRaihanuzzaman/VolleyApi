@@ -67,7 +67,7 @@ class MainActivity : AppCompatActivity() {
 
                  var responseObjects = JSONObject(response)
 
-                 responseObjects.get("postLink")
+                 //responseObjects.get("postLink")
 
                  binding.memeTitle.text =  responseObjects.getString("title")
                  binding.memeAuthor.text =  responseObjects.getString("author")

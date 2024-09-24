@@ -27,8 +27,8 @@
         android:gravity="center" />
 
     <Button
+        android:id="@+id/buttonNewMeme"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="New Meme"
-        android:id="@+id/buttonNewMeme"/>
+        android:text="New Meme" />
 </LinearLayout>
